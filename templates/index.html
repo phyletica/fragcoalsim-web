@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Coalescent Simulation</title>
+  <!-- <meta name='description' content='The HTML5 Herald'>
+  <meta name='author' content='SitePoint'> -->
+  <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+
+
+<label>Fragment Number</label>
+<input min='0' max='100' value='5' type='number'/>
+<label>Gene Copies</label>
+<input min='0' max='100' value='10' type='number'/>
+<label>Number of Replicates</label>
+<input min='0' max='100000' value='10000' type='nuumber'/>
+
+<table>
+  <tr class='table-headers'>
+    <td>Taxon Label</td>
+    <td>Ancestral Pop Size</td>
+    <td>Fragment Pop Size</td>
+    <td>Mutation Rate</td>
+    <td>Generation Time</td>
+    <td>Migration Rate</td>
+  </tr>
+
+  <tr id='taxon-a'>
+    <td><input type='text'  value='Taxon A'/></td>
+    <td><input min='0' max='1000000' value='50000' type='number'/></td>
+    <td><input min='0' max='1000000' value='1000' type='number'/></td>
+    <td><input min='0' max='100' value='1e-8' type='number'/></td>
+    <td><input min='0' max='100' value='4' type='number'/></td>
+    <td><input min='0' max='100' value='0' type='number'/></td>
+  </tr>
+  <tr id='taxon-b'>
+    <td><input type='text' value='Taxon B'/></td>
+    <td><input min='0' max='1000000' value='200000' type='number'/></td>
+    <td><input min='0' max='1000000' value='100000' type='number'/></td>
+    <td><input min='0' max='100' value='2e-8' type='number'/></td>
+    <td><input min='0' max='100' value='.08' type='number'/></td>
+    <td><input min='0' max='100' value='0' type='number'/></td>
+  </tr>
+  <tr id='taxon-c'>
+    <td><input type='text' value='Taxon C'/></td>
+    <td><input min='0' max='1000000' value='4000' type='number'/></td>
+    <td><input min='0' max='1000000' value='4000' type='number'/></td>
+    <td><input min='0' max='100' value='1e-5' type='number'/></td>
+    <td><input min='0' max='100' value='.011' type='number'/></td>
+    <td><input min='0' max='100' value='0' type='number'/></td>
+  </tr>
+</table>
+
+<button id='run-buttton'>Run Simulation</button>
+
+<div id='plot-area'>Plot Area</div>
+
+
+<script>
+
+
+
+
+
+
+
+
+
+</script>
+
+
+<!-- <script src='js/scripts.js'></script> -->
+</body>
+</html>

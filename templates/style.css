@@ -1,0 +1,20 @@
+
+#plot-area {
+  background: gray;
+  height: 300px;
+  width: 300px;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+
+table, th, td {
+   border: 1px solid black;
+}
